@@ -35,7 +35,6 @@ paper-kit-react
 │   └── manifest.json
 └── src
     ├── index.js
-    ├── logo.svg
     ├── assets
     │   ├── css
     │   │   ├── bootstrap.min.css
@@ -46,7 +45,7 @@ paper-kit-react
     │   ├── img
     │   │   ├── examples
     │   │   ├── faces
-    │   │   ├── flags
+    │   │   └── flags
     │   └── scss
     │       ├── paper-kit
     │       │   ├── cards
@@ -59,37 +58,35 @@ paper-kit-react
     │       └── paper-kit.scss
     ├── components
     │   ├── Footers
-    │   │   └── DemoFooter.js
+    │   │   └── IndexFooter.js
     │   ├── Headers
-    │   │   ├── IndexHeader.js
-    │   │   ├── LandingPageHeader.js
-    │   │   └── ProfilePageHeader.js
-    │   └── Navbars
-    │       ├── ExamplesNavbar.js
-    │       └── IndexNavbar.js
-    └── views
-        ├── Index.js
-        ├── NucleoIcons.js
-        ├── examples
-        │   ├── LandingPage.js
-        │   ├── ProfilePage.js
-        │   └── RegisterPage.js
-        └── menu
-            ├── SectionButtons.js
-            ├── SectionCarousel.js
-            ├── SectionDark.js
-            ├── SectionDownload.js
-            ├── SectionExamples.js
-            ├── SectionJavaScript.js
-            ├── SectionLogin.js
-            ├── SectionNavbars.js
-            ├── SectionNavigation.js
-            ├── SectionNotifications.js
-            ├── SectionNucleoIcons.js
-            ├── SectionProgress.js
-            └── SectionTypography.js
+    │   │   ├── indexHeader.js
+    │   │   └── profilePageHeader.js
+    │   └── navbars
+    │       ├── commonNavbar.js
+    │       ├── indexNavbar.js
+    │       └── loginNavbar.js
+    ├── icons
+    │   └──  logo.svg    
+    │── routes
+    │   └──  index.js
+    │── views
+    │   ├── index.js
+    │   ├── Login
+    │   │   └── index.js
+    │   ├── Main
+    │   │   ├── index.js
+    │   │   └── mainHeader.js
+    │   └── menu
+    │       ├── Components
+    │       │   ├── nucleoIcons.js
+    │       │   └── sectionCarousel.js
+    │       ├── hookPage.js
+    │       ├── profilePage.js
+    │       ├── sectionButton.js
+    │       ├── sectionJavaScript.js
+    │       └── sectionProgress.js
 ```
-
 ## Resources
 - Demo: <http://demos.creative-tim.com/paper-kit-react/#/index?ref=pkr-github-readme>
 - Download Page: <https://www.creative-tim.com/product/paper-kit-react?ref=pkr-github-readme>
