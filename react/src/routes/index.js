@@ -5,11 +5,11 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import Index from "views/Index.js";
 import HookPage from "views/menu/HookPage.js";
 import ProfilePage from "views/menu/ProfilePage.js";
-import NucleoIcons from "views/menu/NucleoIcons.js";
+import NucleoIcons from "views/menu/components/NucleoIcons.js";
 import Buttons from "views/menu/SectionButtons.js";
 import Progress from "views/menu/SectionProgress.js";
 import JavaScript from "views/menu/SectionJavaScript.js";
-import RegisterPage from "views/menu/RegisterPage.js";
+import LoginPage from "views/login/index.js";
 
 function Routes() {
   return(
@@ -48,7 +48,7 @@ function Routes() {
         />
         <Route
           path="/register-page" // login
-          render={(props) => <RegisterPage {...props} />}
+          render={(props) => <LoginPage {...props} />}
         />
         <Redirect to="/"/>
       </Switch>
