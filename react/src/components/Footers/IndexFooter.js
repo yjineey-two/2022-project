@@ -22,7 +22,7 @@ import React from "react";
 // reactstrap components
 import { Row, Container } from "reactstrap";
 
-function DemoFooter() {
+function IndexFooter() {
   return (
     <footer className="footer footer-black footer-white">
       <Container>
@@ -41,4 +41,4 @@ function DemoFooter() {
   );
 }
 
-export default DemoFooter;
+export default IndexFooter;

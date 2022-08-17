@@ -23,10 +23,6 @@ import React from "react";
 import logo from 'icons/logo.svg';
 import 'styles/App.css';
 
-// import logo from '@/icons/logo.svg';
-// import '@/styles/App.css';
-
-// reactstrap components
 import {
   Collapse,
   NavbarBrand,

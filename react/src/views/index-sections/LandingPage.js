@@ -32,7 +32,7 @@ import {
 
 // core components
 import IndexHeader from "components/Headers/IndexHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -314,7 +314,7 @@ function LandingPage() {
           </Container>
         </div>
       </div>
-      <DemoFooter />
+      <IndexFooter />
     </>
   );
 }

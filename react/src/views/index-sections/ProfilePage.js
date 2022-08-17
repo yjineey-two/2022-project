@@ -37,7 +37,7 @@ import {
 // core components
 import SideNavbar from "components/Navbars/SideNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
 import SectionCarousel from "../index-sections/SectionCarousel";
 
 function ProfilePage() {
@@ -199,7 +199,7 @@ function ProfilePage() {
         </Container>
       </div>
       <SectionCarousel />
-      <DemoFooter />
+      <IndexFooter />
     </>
   );
 }
