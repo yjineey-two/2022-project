@@ -31,7 +31,7 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 function LandingPage() {
@@ -44,7 +44,7 @@ function LandingPage() {
   });
   return (
     <>
-      <LandingPageHeader />
+      <IndexHeader />
       <div className="main">
         <div className="section text-center">
           <Container>

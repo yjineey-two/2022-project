@@ -19,7 +19,6 @@
 import React from "react";
 
 // core components
-// import IndexHeader from "components/Headers/IndexHeader.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPage from "views/index-sections/LandingPage.js";
 
@@ -34,7 +33,6 @@ function Index() {
   });
   return (
     <>
-      {/* <IndexHeader /> */}
       <IndexNavbar />
       <LandingPage />
       <div className="main"></div>

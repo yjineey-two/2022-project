@@ -16,65 +16,63 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-/*eslint-disable*/
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
-// import LandingPage from "views/examples/LandingPage.js";
+import { Button, Container } from "reactstrap";
 
 // core components
 
-function IndexHeader() {
+function LandingPageHeader() {
+  let pageHeader = React.createRef();
+
+  React.useEffect(() => {
+    if (window.innerWidth < 991) {
+      const updateScroll = () => {
+        let windowScrollTop = window.pageYOffset / 3;
+        pageHeader.current.style.transform =
+          "translate3d(0," + windowScrollTop + "px,0)";
+      };
+      window.addEventListener("scroll", updateScroll);
+      return function cleanup() {
+        window.removeEventListener("scroll", updateScroll);
+      };
+    }
+  });
+
   return (
     <>
       <div
-        className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+            "url(" + require("assets/img/daniel-olahh.jpg").default + ")",
         }}
+        className="page-header"
+        data-parallax={true}
+        ref={pageHeader}
       >
         <div className="filter" />
-        <div className="content-center">
-          <Container>
-            <div className="title-brand">
-              <h1 className="presentation-title"><i class="nc-icon nc-atom" />Creating a blog with.</h1>
-              <div className="fog-low">
-                <img
-                  alt="..."
-                  src={require("assets/img/fog-low.png").default}
-                />
-              </div>
-              <div className="fog-low right">
-                <img
-                  alt="..."
-                  src={require("assets/img/fog-low.png").default}
-                />
-              </div>
-            </div>
-            {/* <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
-            </h2> */}
-          </Container>
-        </div>
-        <div
-          className="moving-clouds"
-          style={{
-            backgroundImage:
-              "url(" + require("assets/img/clouds.png").default + ")",
-          }}
-        />
-        <h6 className="category category-absolute">
-          <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Jineey
-            </span>
-        </h6>
-        {/* <LandingPage/> */}
+        <Container>
+          <div className="motto text-center">
+            {/* <h1>React, 2022-08</h1> */}
+            {/* <h3>Creating a blog with React.</h3> */}
+            <h3>Creating a blog with React.</h3>
+            <br />
+            <Button
+              href="https://www.youtube.com/watch?v=00yJy7W0DQE&list=PLfLgtT94nNq0qTRunX9OEmUzQv4lI4pnP&index=1"
+              className="btn-round mr-1"
+              color="neutral"
+              target="_blank"
+              outline
+            >
+              <i className="fa fa-play" />
+              Watch React
+            </Button>
+          </div>
+        </Container>
       </div>
     </>
   );
 }
 
-export default IndexHeader;
+export default LandingPageHeader;
