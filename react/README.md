@@ -1,7 +1,6 @@
-/*!
-
 =========================================================
 * Paper Kit React - v1.3.0
+
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-kit-react
@@ -12,10 +11,11 @@
 * Coded by Creative Tim
 
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-*/
+=========================================================
+
+
 
 ## File Structure
 
@@ -105,16 +105,3 @@ We use GitHub Issues as the official bug tracker for the Paper Kit 2. Here are s
 1. Make sure that you are using the latest version of the Paper Kit 2. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=pkr-github-readme).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Useful Links
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=pkr-github-readme) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/?ref=pkr-github-readme)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=pkr-github-readme) from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=pkr-github-readme) from Creative Tim
-- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=pkr-github-readme) from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=pkr-github-readme) from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=pkr-github-readme) from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref=pkr-github-readme) from Creative Tim
-- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=pkr-github-readme)
