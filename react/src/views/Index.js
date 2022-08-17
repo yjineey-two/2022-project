@@ -1,8 +1,8 @@
 import React from "react";
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import MainIndex from "views/main/Index.js";
+import IndexNavbar from "components/Navbars/indexNavbar.js";
+import MainIndex from "views/Main/index.js";
 
 
 function Index() {

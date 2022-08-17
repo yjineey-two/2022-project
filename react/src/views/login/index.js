@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Button, Card, Form, Input, Container, Row, Col } from "reactstrap";
-import LoginNavbar from "components/Navbars/LoginNavbar.js";
-import IndexFooter from "components/Footers/IndexFooter.js"
+import LoginNavbar from "components/Navbars/loginNavbar.js";
+import IndexFooter from "components/Footers/indexFooter.js"
 
 function RegisterPage() {
   document.documentElement.classList.remove("nav-open");

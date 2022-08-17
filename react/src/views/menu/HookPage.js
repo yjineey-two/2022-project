@@ -1,9 +1,9 @@
 /* eslint-disable */ 
 
 import React, { useState } from 'react'
-import { Container, Row } from "reactstrap"
-import IndexHeader from "components/Headers/IndexHeader.js"
-import IndexFooter from "components/Footers/IndexFooter.js"
+import { Container } from "reactstrap"
+import IndexHeader from "components/Headers/indexHeader.js"
+import IndexFooter from "components/Footers/indexFooter.js"
 
 function HookPage() {
   

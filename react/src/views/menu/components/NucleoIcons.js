@@ -1,8 +1,8 @@
 /*eslint-disable*/
 import React from "react";
 
-import IndexHeader from "components/Headers/IndexHeader.js";
-import IndexFooter from "components/Footers/IndexFooter.js";
+import IndexHeader from "components/Headers/indexHeader.js";
+import IndexFooter from "components/Footers/indexFooter.js";
 
 function NucleoIcons() {
   document.documentElement.classList.remove("nav-open");

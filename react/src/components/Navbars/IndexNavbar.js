@@ -1,7 +1,7 @@
 import classnames from "classnames";
 
 import React from "react";
-import CommonNavbar from "./CommonNavbar";
+import CommonNavbar from "./commonNavbar";
 import 'styles/App.css';
 
 import {

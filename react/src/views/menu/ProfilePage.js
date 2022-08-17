@@ -6,9 +6,9 @@ import {
   Col,
 } from "reactstrap";
 
-import IndexHeader from "components/Headers/IndexHeader.js";
-import IndexFooter from "components/Footers/IndexFooter.js";
-import SectionCarousel from "views/menu/components/SectionCarousel";
+import IndexHeader from "components/Headers/indexHeader.js";
+import IndexFooter from "components/Footers/indexFooter.js";
+import SectionCarousel from "views/Menu/Components/sectionCarousel";
 
 function ProfilePage() {
 

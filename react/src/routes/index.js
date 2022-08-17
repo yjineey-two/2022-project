@@ -2,14 +2,14 @@ import React from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 
 // pages
-import Index from "views/Index.js";
-import HookPage from "views/menu/HookPage.js";
-import ProfilePage from "views/menu/ProfilePage.js";
-import NucleoIcons from "views/menu/components/NucleoIcons.js";
-import Buttons from "views/menu/SectionButtons.js";
-import Progress from "views/menu/SectionProgress.js";
-import JavaScript from "views/menu/SectionJavaScript.js";
-import LoginPage from "views/login/index.js";
+import Index from "views/index.js";
+import HookPage from "views/Menu/hookPage.js";
+import ProfilePage from "views/Menu/profilePage.js";
+import NucleoIcons from "views/Menu/Components/nucleoIcons.js";
+import Buttons from "views/Menu/sectionButtons.js";
+import Progress from "views/Menu/sectionProgress.js";
+import JavaScript from "views/Menu/sectionJavaScript.js";
+import LoginPage from "views/Login/index.js";
 
 function Routes() {
   return(

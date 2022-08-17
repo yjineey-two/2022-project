@@ -11,8 +11,8 @@ import {
   Col,
 } from "reactstrap";
 
-import Header from "views/main/MainHeader.js";
-import IndexFooter from "components/Footers/IndexFooter.js";
+import Header from "views/Main/mainHeader.js";
+import IndexFooter from "components/Footers/indexFooter.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");

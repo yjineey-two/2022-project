@@ -1,5 +1,5 @@
 import React from "react";
-import CommonNavbar from "./CommonNavbar";
+import CommonNavbar from "./commonNavbar";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 
