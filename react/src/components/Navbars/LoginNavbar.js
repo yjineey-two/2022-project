@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CommonNavbar from "./CommonNavbar";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 
 import {
   Collapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -51,14 +50,7 @@ function ExamplesNavbar() {
     >
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            to="/index"
-            title="Coded by Creative Tim"
-            tag={Link}
-          >
-            <i className="nc-icon nc-atom" /> 
-          </NavbarBrand>
+          <CommonNavbar />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {

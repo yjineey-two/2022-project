@@ -1,7 +1,9 @@
 import React from "react";
+import IndexHeader from "components/Headers/IndexHeader.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
+
 // react plugin used to create datetimepicker
 import ReactDatetime from "react-datetime";
-
 import {
   Button,
   FormGroup,
@@ -25,6 +27,7 @@ function SectionJavaScript() {
   };
   return (
     <>
+      <IndexHeader />
       <div className="section javascript-components">
         <Container>
           <div className="title">
@@ -274,6 +277,7 @@ function SectionJavaScript() {
           </div>
         </Container>
       </div>{" "}
+      <IndexFooter />
     </>
   );
 }

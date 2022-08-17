@@ -3,13 +3,13 @@ import { Route, Redirect, Switch } from "react-router-dom";
 
 // pages
 import Index from "views/Index.js";
-import HookPage from "views/index-sections/HookPage.js";
-import ProfilePage from "views/index-sections/ProfilePage.js";
-import NucleoIcons from "views/index-sections/NucleoIcons.js";
-import Buttons from "views/index-sections/SectionButtons.js";
-import Progress from "views/index-sections/SectionProgress.js";
-import JavaScript from "views/index-sections/SectionJavaScript.js";
-import RegisterPage from "views/index-sections/RegisterPage.js";
+import HookPage from "views/menu/HookPage.js";
+import ProfilePage from "views/menu/ProfilePage.js";
+import NucleoIcons from "views/menu/NucleoIcons.js";
+import Buttons from "views/menu/SectionButtons.js";
+import Progress from "views/menu/SectionProgress.js";
+import JavaScript from "views/menu/SectionJavaScript.js";
+import RegisterPage from "views/menu/RegisterPage.js";
 
 function Routes() {
   return(
@@ -50,7 +50,7 @@ function Routes() {
           path="/register-page" // login
           render={(props) => <RegisterPage {...props} />}
         />
-        <Redirect to={["/", "/index"]} />
+        <Redirect to="/"/>
       </Switch>
   );
 }

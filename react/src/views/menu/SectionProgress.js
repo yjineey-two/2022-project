@@ -1,4 +1,7 @@
 import React from "react";
+import IndexHeader from "components/Headers/IndexHeader.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
+
 import {
   NavItem,
   NavLink,
@@ -23,6 +26,7 @@ function SectionProgress() {
   };
   return (
     <>
+      <IndexHeader />
       <div className="section">
         <Container>
           <Row>
@@ -266,6 +270,7 @@ function SectionProgress() {
           </Row>
         </Container>
       </div>{" "}
+      <IndexFooter />
     </>
   );
 }

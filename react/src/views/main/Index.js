@@ -11,10 +11,10 @@ import {
   Col,
 } from "reactstrap";
 
-import IndexHeader from "components/Headers/IndexHeader.js";
+import Header from "views/main/MainHeader.js";
 import IndexFooter from "components/Footers/IndexFooter.js";
 
-function LandingPage() {
+function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -24,7 +24,7 @@ function LandingPage() {
   });
   return (
     <>
-      <IndexHeader />
+      <Header />
       <div className="main">
         <div className="section text-center">
           <Container>
@@ -299,4 +299,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Index;

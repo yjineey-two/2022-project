@@ -74,7 +74,7 @@ paper-kit-react
         │   ├── LandingPage.js
         │   ├── ProfilePage.js
         │   └── RegisterPage.js
-        └── index-sections
+        └── menu
             ├── SectionButtons.js
             ├── SectionCarousel.js
             ├── SectionDark.js

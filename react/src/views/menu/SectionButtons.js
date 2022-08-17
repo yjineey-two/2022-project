@@ -1,7 +1,9 @@
 import React from "react";
+import IndexHeader from "components/Headers/IndexHeader.js";
+import IndexFooter from "components/Footers/IndexFooter.js";
+
 // plugin that creates slider
 import Slider from "nouislider";
-
 import {
   Button,
   Label,
@@ -43,6 +45,7 @@ function SectionButtons() {
   });
   return (
     <>
+      <IndexHeader />
       <div className="section section-buttons">
         <Container>
           <div className="title">
@@ -438,6 +441,7 @@ function SectionButtons() {
           </Row>
         </Container>
       </div>
+      <IndexFooter />
     </>
   );
 }

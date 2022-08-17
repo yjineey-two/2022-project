@@ -1,9 +1,4 @@
-/*!
-=========================================================
-* Jineey React - v1.0
-* Start Date - 2022.08
-=========================================================
-*/
+/* eslint-disable */ 
 
 import React from 'react';
 import ReactDOM from "react-dom";

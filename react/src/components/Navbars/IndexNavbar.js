@@ -1,11 +1,11 @@
 import classnames from "classnames";
 
 import React from "react";
+import CommonNavbar from "./CommonNavbar";
 import 'styles/App.css';
 
 import {
   Collapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -53,56 +53,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/index"
-            // 새탭에서 열기
-            // target="_blank"
-            title="HOME"
-          ><i className="nc-icon nc-atom" />
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/hook-page"
-            title="Hook"
-          >
-            Hook
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/profile-page"
-            title="Profile"
-          >
-            Profile
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/nucleo-icons"
-            title="Profile"
-          >
-            Icons
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/buttons"
-            title="Profile"
-          >
-            Buttons
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/Progress"
-            title="Profile"
-          >
-            Progress
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
-            href="/JavaScript"
-            title="Profile"
-          >
-            JavaScript
-          </NavbarBrand>
+          <CommonNavbar />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
