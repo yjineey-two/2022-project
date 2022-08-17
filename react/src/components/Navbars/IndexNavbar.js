@@ -1,26 +1,13 @@
 /*!
-
 =========================================================
-* Paper Kit React - v1.3.0
+* Jineey React - v1.0
+* Start Date - 2022.08
 =========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
-// nodejs library that concatenates strings
+
 import classnames from "classnames";
 
 import React from "react";
-import logo from 'icons/logo.svg';
 import 'styles/App.css';
 
 import {
@@ -75,21 +62,21 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/home"
-            title="HOME"
-          ><i src={logo} className="App-logo" alt="logo" />
-          </NavbarBrand>
-          <NavbarBrand
-            data-placement="bottom"
             href="/index"
-            // target="_blank"
+            // target="_blank" // 새탭에서 열기
             title="HOME"
           ><i className="nc-icon nc-atom" />
           </NavbarBrand>
           <NavbarBrand
             data-placement="bottom"
+            href="/hook-page"
+            title="Hook"
+          >
+            Hook
+          </NavbarBrand>
+          <NavbarBrand
+            data-placement="bottom"
             href="/profile-page"
-            // target="_blank"
             title="Profile"
           >
             Profile
@@ -97,7 +84,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/nucleo-icons"
-            // target="_blank"
             title="Profile"
           >
             Icons
@@ -105,7 +91,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/buttons"
-            // target="_blank"
             title="Profile"
           >
             Buttons
@@ -113,7 +98,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/Progress"
-            // target="_blank"
             title="Profile"
           >
             Progress
@@ -121,7 +105,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/JavaScript"
-            // target="_blank"
             title="Profile"
           >
             JavaScript
