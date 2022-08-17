@@ -1,10 +1,3 @@
-/*!
-=========================================================
-* Jineey React - v1.0
-* Start Date - 2022.08
-=========================================================
-*/
-
 import React from "react";
 import {
   Button,
@@ -21,8 +14,7 @@ import {
   Col,
 } from "reactstrap";
 
-// core components
-import SideNavbar from "components/Navbars/SideNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import IndexFooter from "components/Footers/IndexFooter.js";
 import SectionCarousel from "../index-sections/SectionCarousel";
@@ -45,7 +37,7 @@ function ProfilePage() {
   });
   return (
     <>
-      <SideNavbar />
+      <IndexNavbar />
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>

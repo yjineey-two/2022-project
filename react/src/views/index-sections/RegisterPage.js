@@ -18,11 +18,8 @@
 */
 import React from "react";
 
-// reactstrap components
 import { Button, Card, Form, Input, Container, Row, Col } from "reactstrap";
-
-// core components
-import SideNavbar from "components/Navbars/SideNavbar.js";
+import LoginNavbar from "components/Navbars/LoginNavbar.js";
 
 function RegisterPage() {
   document.documentElement.classList.remove("nav-open");
@@ -34,7 +31,7 @@ function RegisterPage() {
   });
   return (
     <>
-      <SideNavbar />
+      <LoginNavbar />
       <div
         className="page-header"
         style={{

@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 /*eslint-disable*/
 import React from "react";
 
@@ -33,7 +15,7 @@ function NucleoIcons() {
         <h1>Paper Kit React Icons</h1>
         <p>
           Built with{" "}
-          <a href="https://nucleoapp.com/?ref=1712" target="_blank">
+          <a href="https://nucleoapp.com/?ref=1712">
             nucleoapp.com
           </a>
         </p>

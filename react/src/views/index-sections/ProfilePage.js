@@ -1,24 +1,4 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-
-// reactstrap components
 import {
   Button,
   Label,
@@ -34,8 +14,6 @@ import {
   Col,
 } from "reactstrap";
 
-// core components
-import SideNavbar from "components/Navbars/SideNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import IndexFooter from "components/Footers/IndexFooter.js";
 import SectionCarousel from "../index-sections/SectionCarousel";
@@ -58,7 +36,6 @@ function ProfilePage() {
   });
   return (
     <>
-      <SideNavbar />
       <ProfilePageHeader />
       <div className="section profile-content">
         <Container>

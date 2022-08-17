@@ -1,10 +1,3 @@
-/*!
-=========================================================
-* Jineey React - v1.0
-* Start Date - 2022.08
-=========================================================
-*/
-
 import classnames from "classnames";
 
 import React from "react";
@@ -63,7 +56,8 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            // target="_blank" // 새탭에서 열기
+            // 새탭에서 열기
+            // target="_blank"
             title="HOME"
           ><i className="nc-icon nc-atom" />
           </NavbarBrand>
