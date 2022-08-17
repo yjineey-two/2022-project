@@ -18,12 +18,10 @@
 */
 import React from "react";
 
-// reactstrap components
-
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
 // import IndexHeader from "components/Headers/IndexHeader.js";
-import LandingPage from "views/examples/LandingPage.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import LandingPage from "views/index-sections/LandingPage.js";
 
 
 function Index() {
@@ -36,12 +34,10 @@ function Index() {
   });
   return (
     <>
+      {/* <IndexHeader /> */}
       <IndexNavbar />
       <LandingPage />
-      {/* <IndexHeader /> */}
-      <div className="main">
-
-      </div>
+      <div className="main"></div>
     </>
   );
 }

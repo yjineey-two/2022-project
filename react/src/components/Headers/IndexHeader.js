@@ -39,7 +39,7 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title"><i class="nc-icon nc-atom" />React</h1>
+              <h1 className="presentation-title"><i class="nc-icon nc-atom" />Creating a blog with.</h1>
               <div className="fog-low">
                 <img
                   alt="..."

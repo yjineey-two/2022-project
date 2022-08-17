@@ -54,7 +54,8 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>React, 2022-08</h1>
+            {/* <h1>React, 2022-08</h1> */}
+            {/* <h3>Creating a blog with React.</h3> */}
             <h3>Creating a blog with React.</h3>
             <br />
             <Button

@@ -16,9 +16,16 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+
+import React from "react";
+import logo from 'icons/logo.svg';
+import 'styles/App.css';
+
+// import logo from '@/icons/logo.svg';
+// import '@/styles/App.css';
+
 // reactstrap components
 import {
   Collapse,
@@ -72,8 +79,14 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
+            href="/home"
+            title="HOME"
+          ><i src={logo} className="App-logo" alt="logo" />
+          </NavbarBrand>
+          <NavbarBrand
+            data-placement="bottom"
             href="/index"
-            target="_blank"
+            // target="_blank"
             title="HOME"
           ><i className="nc-icon nc-atom" />
           </NavbarBrand>
