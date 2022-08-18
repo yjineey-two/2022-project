@@ -13,7 +13,7 @@ import LoginPage from "views/Login/index.js";
 
 function Routes() {
   return(
-      // Sitch : 여러개가 매칭되어도 맨 위의 <route> 한개만 보여준다, ex) path="/index" path="/" 일 경우 중복
+    // Switch : 여러개가 매칭되어도 맨 위의 <route> 한개만 보여준다, ex) path="/index" path="/" 일 경우 중복
     <Switch>
         {/* <Route path="/index" render={(props) => <Index {...props} />} /> */}
         <Route 
