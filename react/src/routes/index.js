@@ -5,7 +5,7 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import Index from "views/index.js";
 import HookPage from "views/Menu/hookPage.js";
 import ProfilePage from "views/Menu/profilePage.js";
-import NucleoIcons from "views/Menu/Components/nucleoIcons.js";
+import NucleoIcons from "views/Menu/components/nucleoIcons.js";
 import Buttons from "views/Menu/sectionButtons.js";
 import Progress from "views/Menu/sectionProgress.js";
 import JavaScript from "views/Menu/sectionJavaScript.js";

@@ -8,7 +8,7 @@ import {
 
 import IndexHeader from "components/Headers/indexHeader.js";
 import IndexFooter from "components/Footers/indexFooter.js";
-import SectionCarousel from "views/Menu/Components/sectionCarousel";
+import SectionCarousel from "views/Menu/components/sectionCarousel";
 
 function ProfilePage() {
 
