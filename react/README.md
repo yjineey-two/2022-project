@@ -58,7 +58,7 @@ paper-kit-react
     │       └── paper-kit.scss
     ├── components
     │   ├── Footers
-    │   │   └── IndexFooter.js
+    │   │   └── indexFooter.js
     │   ├── Headers
     │   │   ├── indexHeader.js
     │   │   └── profilePageHeader.js
@@ -77,15 +77,26 @@ paper-kit-react
     │   ├── Main
     │   │   ├── index.js
     │   │   └── mainHeader.js
-    │   └── menu
-    │       ├── Components
-    │       │   ├── nucleoIcons.js
-    │       │   └── sectionCarousel.js
-    │       ├── hookPage.js
-    │       ├── profilePage.js
-    │       ├── sectionButton.js
-    │       ├── sectionJavaScript.js
-    │       └── sectionProgress.js
+    │   ├── Menu
+    │   │   ├── components
+    │   │   │   ├── nucleoIcons.js
+    │   │   │   └── sectionCarousel.js
+    │   │   ├── hookPage.js
+    │   │   ├── profilePage.js
+    │   │   ├── sectionButton.js
+    │   │   ├── sectionJavaScript.js
+    │   │   └── sectionProgress.js
+    │   └── Study
+    │       ├── components
+    │       │   ├── timer.js
+    │       │   └── 
+    │       ├── useEffect.js
+    │       ├── useState.js
+    │       ├── 
+    │       ├── 
+    │       ├── 
+    │       ├──     
+    │       └──
 ```
 ## Resources
 - Demo: <http://demos.creative-tim.com/paper-kit-react/#/index?ref=pkr-github-readme>
