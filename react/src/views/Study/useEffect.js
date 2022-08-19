@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { Container } from "reactstrap"
 import IndexHeader from "components/Headers/indexHeader.js"
 import IndexFooter from "components/Footers/indexFooter.js"
-import Timer from "./Components/timer.js"
+import Timer from "./components/timer.js"
 
 function HookPage() {
 
