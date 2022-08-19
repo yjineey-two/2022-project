@@ -7,11 +7,11 @@ import IndexFooter from "components/Footers/indexFooter.js"
 
 function HookPage() {
   
-  let [name, setName] = useState('집에가쟈!')
-  //[a,b]형태; a: 텍스트, b: 텍스트를 변경하기위한 함수
-  let [title,changeTitle] = useState(['남자 코트 추천','남자 바지 추천', '남자 티 추천']) 
-  let [cont,changeCont] = useState(['1번글','2번글', '3번글'])
-  let [cnt,changeCnt] = useState(0)
+  const [state, setState] = useState(true)
+  const [name, setName] = useState('2022.08')
+
+  const [title, useTitle] = useState(['React', 'const [state, setState] = useState(true)', '[a, b] 형태; a: 텍스트, b: 텍스트를 변경하기위한 함수']) 
+  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,35 +20,41 @@ function HookPage() {
         <Container>
           <div>　</div>
           <div>　</div>
-          <div style={{ color:'blue', fontSize:'30px', fontWeight: 'bold' }}><span style={{marginRight: '10px'}}>{name}</span>
+          <div style={{ color:'blue', fontSize:'30px', fontWeight: 'bold' }}>
+            <span style={{marginRight: '10px'}}>{name}</span>
             <button onClick={() => {
               let temp = state;
           
               if(temp) {
-                chagneState(false)
-                setName('OK!')
+                setState(false)
+                setName('study!')
               }
               else {
-                chagneState(true)
-                setName('집에가쟈!')
+                setState(true)
+                setName('2022.08')
               };
             }}>👌
             </button>
           </div>
 
-          <div className='list'>
-            <h3> {title[0]} <span onClick={()=>{changeCnt(cnt+1);}}>👍</span> {cnt} </h3>
-            <p> {cont[0]} </p>
+          <div className= 'list'>
+            <h3> { title[0] } 
+              <span onClick= {() => {
+                setCount(count + 1);
+                }
+              }> 👍
+              </span>
+              {count}
+            </h3>
             <hr/>
           </div>
-          <div className='list'>
-            <h3> {title[1]} </h3>
-            <p> {cont[1]} </p>
+
+          <div className= 'list'>
+            <h3> { title[1] } </h3>
             <hr/>
           </div>
-          <div className='list'>
-            <h3> {title[2]} </h3>
-            <p> {cont[2]} </p>
+          <div className= 'list'>
+            <h3> { title[2] } </h3>
             <hr/>
           </div>
         </Container>
