@@ -65,11 +65,13 @@ paper-kit-react
     │   └── navbars
     │       ├── commonNavbar.js
     │       ├── indexNavbar.js
-    │       └── loginNavbar.js
+    │       ├── loginNavbar.js
+    │       └── studyNavbar.js
     ├── icons
     │   └──  logo.svg    
     │── routes
-    │   └──  index.js
+    │   ├── index.js    
+    │   └── study.js
     │── views
     │   ├── index.js
     │   ├── Login
@@ -81,18 +83,19 @@ paper-kit-react
     │   │   ├── components
     │   │   │   ├── nucleoIcons.js
     │   │   │   └── sectionCarousel.js
-    │   │   ├── hookPage.js
     │   │   ├── profilePage.js
     │   │   ├── sectionButton.js
     │   │   ├── sectionJavaScript.js
     │   │   └── sectionProgress.js
     │   └── Study
     │       ├── components
+    │       │   ├── student.js
     │       │   ├── timer.js
     │       │   └── 
     │       ├── useEffect.js
+    │       ├── useReducer1.js
+    │       ├── useReducer2.js
     │       ├── useState.js
-    │       ├── 
     │       ├── 
     │       ├── 
     │       ├──     
