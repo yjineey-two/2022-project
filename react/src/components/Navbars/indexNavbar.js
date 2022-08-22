@@ -1,7 +1,8 @@
 import classnames from "classnames";
 
 import React from "react";
-import CommonNavbar from "./commonNavbar";
+// import CommonNavbar from "./commonNavbar";
+import StudyNavbar from "./studyNavbar";
 import 'styles/App.css';
 
 import {
@@ -53,7 +54,8 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <CommonNavbar />
+          {/* <CommonNavbar /> */}
+          <StudyNavbar />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
