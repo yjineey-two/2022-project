@@ -3,7 +3,6 @@ import { Route, Redirect, Switch } from "react-router-dom";
 
 // pages
 import Index from "views/index.js";
-import HookPage from "views/Menu/hookPage.js";
 import ProfilePage from "views/Menu/profilePage.js";
 import NucleoIcons from "views/Menu/components/nucleoIcons.js";
 import Buttons from "views/Menu/sectionButtons.js";
@@ -21,10 +20,6 @@ function Routes() {
           // component = {Index}
           render={(props) => <Index {...props} /> }
           exact={true}  // 컴포넌트가 중복하여 일치하는 현상 방지
-        />
-        <Route
-          path="/hook-page"
-          render={(props) => <HookPage {...props} />}
         />
         <Route
           path="/profile-page"
