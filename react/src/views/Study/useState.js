@@ -10,7 +10,7 @@ function HookPage() {
   const [state, setState] = useState(true)
   const [name, setName] = useState('2022.08')
 
-  const [title, useTitle] = useState(['React', 'const [state, setState] = useState(true)', '[a, b] 형태; a: 텍스트, b: 텍스트를 변경하기위한 함수']) 
+  const [title, useTitle] = useState(['React', 'const [state, setState] = useState(true)', '[a, b] 형태 === [텍스트, 텍스트를 변경하기위한 함수]']) 
   const [count, setCount] = useState(0)
 
   return (
@@ -27,7 +27,7 @@ function HookPage() {
           
               if(temp) {
                 setState(false)
-                setName('study!')
+                setName('study 시작 !')
               }
               else {
                 setState(true)
