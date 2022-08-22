@@ -3,7 +3,8 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import Routes from "routes/index.js";
+// import Routes from "routes/index.js";
+import Study from "routes/study.js";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
@@ -14,7 +15,8 @@ import "assets/demo/demo.css?v=1.3.0";
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(
   <BrowserRouter>
-    <Routes/>
+    {/* <Routes/> */}
+    <Study/>
   </BrowserRouter>,
   document.getElementById("root")
 );
