@@ -16,18 +16,42 @@ function StudyNavbar() {
 
       <NavbarBrand
         data-placement="bottom"
-        href="/use-state"
-        title="UseState"
-      >
-        UseState
+        href="/use-ref"
+        title="UseRef"
+        >
+        UseRef
       </NavbarBrand>
 
       <NavbarBrand
         data-placement="bottom"
-        href="/use-effect"
-        title="UseEffect"
+        href="/use-memo"
+        title="UseMemo"
         >
-        UseEffect
+        UseMemo
+      </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-callback"
+        title="UseCallback"
+        >
+        UseCallback
+      </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-reducer3"
+        title="UseReducer3"
+        >
+        UseReducer3
+      </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-reducer2"
+        title="UseReducer2"
+        >
+        UseReducer2
       </NavbarBrand>
 
       <NavbarBrand
@@ -40,10 +64,18 @@ function StudyNavbar() {
 
       <NavbarBrand
         data-placement="bottom"
-        href="/use-reducer2"
-        title="UseReducer2"
+        href="/use-effect"
+        title="UseEffect"
         >
-        UseReducer2
+        UseEffect
+      </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-state"
+        title="UseState"
+      >
+        UseState
       </NavbarBrand>
     </>
   )

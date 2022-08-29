@@ -7,6 +7,10 @@ import UseState from "views/Study/useState.js";
 import UseEffect from "views/Study/useEffect.js";
 import UseReducer1 from "views/Study/useReducer1.js";
 import UseReducer2 from "views/Study/useReducer2.js";
+import UseReducer3 from "views/Study/useReducer3.js";
+import UseRef from "views/Study/useRef.js";
+import UseMemo from "views/Study/useMemo.js";
+import UseCallback from "views/Study/useCallback.js";
 
 function Routes() {
   return(
@@ -36,6 +40,26 @@ function Routes() {
         <Route
           path="/use-reducer2"
           render={(props) => <UseReducer2 {...props} />}
+        />
+
+        <Route
+          path="/use-reducer3"
+          render={(props) => <UseReducer3 {...props} />}
+        />
+
+        <Route
+          path="/use-ref"
+          render={(props) => <UseRef {...props} />}
+        />
+
+        <Route
+          path="/use-memo"
+          render={(props) => <UseMemo {...props} />}
+        />
+
+        <Route
+          path="/use-callback"
+          render={(props) => <UseCallback {...props} />}
         />
 
         <Redirect to="/"/>
