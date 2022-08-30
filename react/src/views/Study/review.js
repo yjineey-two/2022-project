@@ -1,5 +1,6 @@
-/* eslint-disable */ 
+// 22.08.27 (토)
 
+/* eslint-disable */ 
 import React, {useEffect, useState} from 'react';
 
 const practice = () => {

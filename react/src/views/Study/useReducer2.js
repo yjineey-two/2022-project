@@ -1,5 +1,6 @@
-/* eslint-disable */ 
+// 22.08.22 (월) - 스터디
 
+/* eslint-disable */ 
 import React, { useState, useReducer } from 'react'
 import { Container } from "reactstrap"
 import IndexHeader from "components/Headers/indexHeader.js"
@@ -55,6 +56,7 @@ function HookPage() {
     //   },
     // ],
   }; 
+// 22.08.22 (월)
 
   const [name, setName] = useState('');
   const [studentsInfo, dispatch] = useReducer(reducer, initialState);

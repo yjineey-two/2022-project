@@ -1,3 +1,5 @@
+// 22.08.29 (월) - 스터디
+
 /* eslint-disable */ 
 import React, { useState, useRef, useEffect } from 'react'
 import { Container } from "reactstrap"

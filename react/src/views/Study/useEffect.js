@@ -1,5 +1,6 @@
-/* eslint-disable */ 
+// 22.08.18 (목) - 스터디
 
+/* eslint-disable */ 
 import React, { useState } from 'react'
 import { Container } from "reactstrap"
 import IndexHeader from "components/Headers/indexHeader.js"
