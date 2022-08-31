@@ -3,7 +3,6 @@
 /* eslint-disable */ 
 import React, { useState, useRef, useEffect } from 'react'
 import { Container } from "reactstrap"
-// import TestUseMemo from "./useMemo.js"
 import IndexHeader from "components/Headers/indexHeader.js"
 import IndexFooter from "components/Footers/indexFooter.js"
 
@@ -24,7 +23,6 @@ const App = () => {
   }, []);
 
   const login = () =>{
-    // TestUseMemo
     alert (`환영합니다 ${inputRef.current.value}!`)
   }
 
