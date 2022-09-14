@@ -16,11 +16,28 @@ function StudyNavbar() {
 
       <NavbarBrand
         data-placement="bottom"
-        href="/use-ref"
-        title="UseRef"
+        href="/custom"
+        title="Custom"
         >
-        UseRef
+        Custom
       </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-Context"
+        title="UseContext"
+        >
+        UseContext
+      </NavbarBrand>
+
+      <NavbarBrand
+        data-placement="bottom"
+        href="/use-callback"
+        title="UseCallback"
+        >
+        UseCallback
+      </NavbarBrand>
+
 
       <NavbarBrand
         data-placement="bottom"
@@ -32,10 +49,10 @@ function StudyNavbar() {
 
       <NavbarBrand
         data-placement="bottom"
-        href="/use-callback"
-        title="UseCallback"
+        href="/use-ref"
+        title="UseRef"
         >
-        UseCallback
+        UseRef
       </NavbarBrand>
 
       <NavbarBrand
